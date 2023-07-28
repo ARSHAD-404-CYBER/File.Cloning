@@ -518,7 +518,6 @@ if __name__=='__main__':
 	except:pass
 
 def Subscraption():
-	key1=open('/storage/emulated/0/android8.txt', 'r').read()
 	r1=requests.get("https://github.com/ARSHAD-404-CYBER/File.Cloning/blob/main/Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
